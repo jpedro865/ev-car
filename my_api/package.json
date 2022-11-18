@@ -1,0 +1,45 @@
+{
+  "name": "evnmore",
+  "version": "1.0.0",
+  "description": "car Sales Website for or school project, this is an api.",
+  "main": "index.ts",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^3.0.1",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.25.3",
+    "sequelize-typescript": "^2.1.5"
+  },
+  "scripts": {
+    "build": "rm -r build ; tsc",
+    "dev": "nodemon",
+    "eslint": "eslint src/",
+    "dbcheck": "ts-node src/database/migration.ts dbcheck",
+    "migrate": "ts-node src/database/migration.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@rendu-git.etna-alternance.net:module-9179/activity-50057/group-990934.git"
+  },
+  "author": "fausta_b & montei_j",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/node": "^18.11.7",
+    "@types/validator": "^13.7.9",
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
