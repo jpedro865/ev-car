@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  background-color: white;
+  padding: 0 2rem;
+  min-height: 100vh;
+}
+
+.main {
+  color: black;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.logForm {
+  background-color: rgba(0, 0, 0, 0.288);
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.441);
+}
+
+.logForm input[type='email'] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.logForm input[type='password'] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.logForm input {
+  color: black;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+.btn button {
+  margin-top: 25px;
+  font-size: 20px;
+  min-width: 200px;
+  min-height: 20px;
+}
+
+.credentials {
+  display: block;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  min-width: 100%;
+}
+
+.regist a {
+  text-decoration: none;
+  color: rgba(0, 0, 255, 0.666);
+}
+.regist a:hover,
+.regist a:focus,
+.regist a:active {
+  text-decoration: underline;
+}
+
